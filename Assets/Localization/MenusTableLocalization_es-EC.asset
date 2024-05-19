@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: MenusTableLocalization_es-EC
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es-EC
+  m_SharedData: {fileID: 11400000, guid: f46d265f5796b7743bd21eab80f9839a, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 255229384159232
+    m_Localized: Opciones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255335411970048
+    m_Localized: Musica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255386020442112
+    m_Localized: Efectos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 255571844886528
+    m_Localized: Lenguaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264029575016448
+    m_Localized: "Introducci\xF3n"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264118292934656
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264335926980608
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287220779413504
+    m_Localized: Juego Personalizado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 292878404775936
+    m_Localized: "Aprende que s\xF3n los requerimientos funcionales, su importancia,
+      y c\xF3mo detectar requerimientos funcionales ambiguos."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293614236692480
+    m_Localized: Detecta los requerimientos funcionales ambiguos en un proyecto de
+      software.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293635979964416
+    m_Localized: Ingresa en una partida personalizada creada por un profesor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356244800368640
+    m_Localized: Empezar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356328254435328
+    m_Localized: Preciona [Espacio] para empezar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2434525666177024
+    m_Localized: Correcto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2434528484749312
+    m_Localized: Incorrecto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3987809459728384
+    m_Localized: Hubo un error en el archivo, la primera columna solo acepta valores
+      'A' ( de ambiguo) y 'N' ( de no ambiguo), y la segunda columna debe ir el requerimiento
+      y  no puede estar vacio.
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
