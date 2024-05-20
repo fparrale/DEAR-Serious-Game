@@ -30,6 +30,8 @@ namespace Gameplay
 
         public UIChooseShow uiChooseShow;
 
+        public TMP_Text helpText;
+
         [HideInInspector]
         public int corrects;
         public int incorrects;
@@ -47,7 +49,11 @@ namespace Gameplay
             textCurrentRequirement.SetText($"{currentRequirementIndex}/{requirements.Count}");
         }
 
-
+        public void Help()
+        {
+            helpText.SetText(card.requirement.help);
+        }
+    
 
     }
     

@@ -7,5 +7,6 @@ namespace Gameplay.Data
     {
         public string description;
         public RequirementType requirementType;
+        public string help;
     }
 }

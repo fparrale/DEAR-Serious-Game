@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 255229384159232
-    m_Localized: Opciones
+    m_Localized: Cambiar Idioma
     m_Metadata:
       m_Items: []
   - m_Id: 255335411970048
@@ -84,6 +84,20 @@ MonoBehaviour:
     m_Localized: Hubo un error en el archivo, la primera columna solo acepta valores
       'A' ( de ambiguo) y 'N' ( de no ambiguo), y la segunda columna debe ir el requerimiento
       y  no puede estar vacio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8057883114237952
+    m_Localized: Juegar otra vez
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072305421479936
+    m_Localized: "Mant\xE9n el boton izquierdo en la carta, y mueve el mouse hacia
+      la izquierda si crees que el requerimientos es ambiguo, y hacia la derecha
+      si crees que no es ambiguo.\n\n\nPresiona [Espacio] para empezar"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8083803980066816
+    m_Localized: Entendido
     m_Metadata:
       m_Items: []
   references:

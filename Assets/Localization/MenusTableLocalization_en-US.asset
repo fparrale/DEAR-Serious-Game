@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 255229384159232
-    m_Localized: Options
+    m_Localized: Change Languague
     m_Metadata:
       m_Items: []
   - m_Id: 255335411970048
@@ -83,6 +83,24 @@ MonoBehaviour:
     m_Localized: "There was an error in the file, the first column only accepts values
       \u200B\u200B'A' (for ambiguous) and 'N' (for unambiguous), and the second column
       must match the requirement and cannot be empty."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8057883114237952
+    m_Localized: Play again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072305421479936
+    m_Localized: 'Hold down the left click on the card, and move the mouse to the
+      left if you think the requirement is ambiguous, and to the right if you think
+      it is not ambiguous.
+
+      
+
+      Press [Space] to start.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8083803980066816
+    m_Localized: I understand
     m_Metadata:
       m_Items: []
   references:

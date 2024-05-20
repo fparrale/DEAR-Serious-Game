@@ -65,6 +65,7 @@ namespace Gameplay
                     }
 
                     req.description = fields[1];
+                    req.help = fields[2];
 
                     reqs.Add(req);                    
                 }
@@ -94,8 +95,9 @@ namespace Gameplay
                     
                     //Fields 0 : ambiguity
                     //Fields 1 : description
+                    //Fields 2 : help description
 
-                    if(fields.Length != 2 )
+                    if(fields.Length != 3 )
                     {
                         Debug.Log("ValidateFile: No existe dos columnas");
                         return false;
@@ -113,6 +115,11 @@ namespace Gameplay
                         return false;
                     }
 
+                    if(fields[2].Trim() == "")
+                    {
+                        Debug.Log("ValidateFile: La ayuda está vacia");
+                        return false;
+                    }
                 }
 
             }

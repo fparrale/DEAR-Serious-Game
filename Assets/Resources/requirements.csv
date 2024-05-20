@@ -1,4 +1,4 @@
-﻿A;El sistema debe ser fácil de usar
-A;La aplicación debe rendir bien bajo carga pesada
-N;La aplicación calculará el monto total del pedido incluyendo impuestos y descuentos
-A;El sistema debe tener un buen rendimiento
+﻿A;El sistema debe ser fácil de usar;El requerimiento es ambiguo porque para una persona puede ser fácil de usar, pero para otras no.
+A;La aplicación debe rendir bien bajo carga pesada;"La frase ""rendir bien"" es subjetiva y puede interpretarse de diferentes maneras. Lo que un desarrollador o cliente considera ""buen rendimiento"" puede variar significativamente."
+N;La aplicación calculará el monto total del pedido incluyendo impuestos y descuentos;El requerimiento especifica claramente la acción que la aplicación debe realizar: calcular el monto total del pedido.
+A;El sistema debe tener un buen rendimiento;"La frase ""buen rendimiento"" es vaga y abierta a interpretación. Lo que una persona considera buen rendimiento puede diferir de lo que otra persona considera adecuado."

@@ -79,6 +79,18 @@ MonoBehaviour:
     m_Key: error_file_validator
     m_Metadata:
       m_Items: []
+  - m_Id: 8057883114237952
+    m_Key: menu_play_again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8072305421479936
+    m_Key: menu_instrucctions
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8083803980066816
+    m_Key: menu_understand
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
