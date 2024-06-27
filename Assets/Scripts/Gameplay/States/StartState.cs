@@ -18,7 +18,7 @@ namespace Gameplay.States
 
         public override void OnUpdateState()
         {
-            if(Input.GetKeyDown(KeyCode.Space))
+            if(Input.GetMouseButtonDown(0))
             {
                 OnExitState();
             }

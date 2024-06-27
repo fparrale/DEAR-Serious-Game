@@ -9,7 +9,6 @@ namespace Gameplay
     public class CsvRequirementProvider : RequirementProvider
     {
         private string requirementsFilePath = "";
-        private string requirementsFolder = "";
 
         [HideInInspector]
         public CsvRequirementProvider Instance;
@@ -22,9 +21,18 @@ namespace Gameplay
             }else{
                 Destroy(this);
             }
-
+            
+            #if UNITY_EDITOR
             requirementsFilePath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/Req/requirements.csv";
-            requirementsFolder   = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/Req";
+            #else
+            var folderPath = Path.Combine(Application.dataPath, "..");
+            requirementsFilePath = folderPath + "/requirements.csv";
+            #endif
+
+        }
+
+        private void Start() {
+            
         }
 
         public bool ExistFile()
@@ -134,10 +142,6 @@ namespace Gameplay
             if(resourceFile == null)
                 return;
 
-            if(Directory.Exists(requirementsFolder) == false)
-            {
-                Directory.CreateDirectory(requirementsFolder);
-            }
             File.WriteAllBytes(requirementsFilePath, resourceFile.bytes);
         }
     }

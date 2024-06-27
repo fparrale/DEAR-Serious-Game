@@ -68,7 +68,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 356328254435328
-    m_Localized: Press [Space] To Start
+    m_Localized: 'Hold click on the card, and move the mouse to the left if you think
+      the requirement is ambiguous, and to the right if you think it is not ambiguous.
+
+
+
+      Click
+      to continue'
     m_Metadata:
       m_Items: []
   - m_Id: 2434525666177024
@@ -94,13 +100,21 @@ MonoBehaviour:
       left if you think the requirement is ambiguous, and to the right if you think
       it is not ambiguous.
 
-      
+
 
       Press [Space] to start.'
     m_Metadata:
       m_Items: []
   - m_Id: 8083803980066816
     m_Localized: I understand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16898910768488448
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16899019254161408
+    m_Localized: Are you sure you want to quit the game
     m_Metadata:
       m_Items: []
   references:

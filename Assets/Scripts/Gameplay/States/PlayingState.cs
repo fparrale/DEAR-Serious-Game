@@ -46,6 +46,7 @@ namespace Gameplay.States
             context.incorrects += 1;
             context.audioController.Play("incorrect");
             context.uiChooseShow.PlayAnimation(false);
+            context.ShowHelpUI();
             SetNextRequirement();
         }
 

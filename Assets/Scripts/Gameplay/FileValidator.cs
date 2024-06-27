@@ -15,7 +15,10 @@ namespace Gameplay
         [Required]
         public GameObject errorFileTxt;
         
-
+        private void Start() {
+             if(reqProvider.ExistFile() == false)
+                reqProvider.CreateFile();
+        }
 
         public void SelectPlay()
         {
@@ -28,7 +31,7 @@ namespace Gameplay
                 return;
             }
 
-            sceneManager.LoadScene(2);
+            sceneManager.LoadScene(1);
         }
 
 
