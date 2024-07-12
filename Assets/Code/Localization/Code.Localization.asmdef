@@ -1,0 +1,17 @@
+{
+    "name": "Code.Localization",
+    "rootNamespace": "",
+    "references": [
+        "GUID:812cc486c9f892142b376b51c6885eb7",
+        "GUID:eec0964c48f6f4e40bc3ec2257ccf8c5"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
