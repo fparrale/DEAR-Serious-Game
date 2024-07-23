@@ -78,11 +78,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2434525666177024
-    m_Localized: Correct
+    m_Localized: 'CORRECTS:'
     m_Metadata:
       m_Items: []
   - m_Id: 2434528484749312
-    m_Localized: Incorrect
+    m_Localized: 'INCORRECTS:'
     m_Metadata:
       m_Items: []
   - m_Id: 3987809459728384
@@ -115,6 +115,22 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 16899019254161408
     m_Localized: Are you sure you want to quit the game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31401662076837888
+    m_Localized: AMBIGUOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31401665058988032
+    m_Localized: UNAMBIGUOUS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31404571866849280
+    m_Localized: CORRECT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31404574471512064
+    m_Localized: INCORRECT
     m_Metadata:
       m_Items: []
   references:

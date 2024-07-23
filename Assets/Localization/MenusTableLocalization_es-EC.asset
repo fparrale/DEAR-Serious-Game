@@ -75,11 +75,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2434525666177024
-    m_Localized: Correcto
+    m_Localized: 'CORRECTOS:'
     m_Metadata:
       m_Items: []
   - m_Id: 2434528484749312
-    m_Localized: Incorrecto
+    m_Localized: 'INCORRECTOS:'
     m_Metadata:
       m_Items: []
   - m_Id: 3987809459728384
@@ -108,6 +108,22 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 16899019254161408
     m_Localized: "\xBFEst\xE1s seguro de salir del juego?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31401662076837888
+    m_Localized: AMBIGUO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31401665058988032
+    m_Localized: NO AMBIGUO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31404571866849280
+    m_Localized: CORRECTO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31404574471512064
+    m_Localized: INCORRECTO
     m_Metadata:
       m_Items: []
   references:

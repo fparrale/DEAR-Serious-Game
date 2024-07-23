@@ -99,6 +99,22 @@ MonoBehaviour:
     m_Key: menu_quit_ask
     m_Metadata:
       m_Items: []
+  - m_Id: 31401662076837888
+    m_Key: Ambiguous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31401665058988032
+    m_Key: No_Ambiguous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31404571866849280
+    m_Key: correct_only
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31404574471512064
+    m_Key: incorrect_only
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:
